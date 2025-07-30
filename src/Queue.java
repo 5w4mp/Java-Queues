@@ -49,7 +49,7 @@ public class Queue
     public Object front() throws Exception
     {
         if(size == 0){throw new Exception("Queue is empty. ");}
-        return head.data;
+        return this.head.data;
     }
 
 

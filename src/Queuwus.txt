@@ -15,3 +15,7 @@ Operations on Queue:
             -how big is the queue.
          5.) boolean isEmpty():
             - is the queue empty.//size == 0?
+
+
+QUEUES WILL BE ON EXAM TWO: VERY EASY TO REMEMBER ITS JUST A MODIFIED CDLL
+
