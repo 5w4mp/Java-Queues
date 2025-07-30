@@ -35,7 +35,21 @@ public class Queue
         if(this.size == 0){ head = nn; tail = nn;}
         else{tail.next = nn; tail = nn;}
         this.size++;
+    }
+    public Object dequeue() throws Exception
+    {
+        if(size == 0){throw new Exception("Queue is empty. ");}
+        Object temp = head.data;
+        head = head.next;
+        this.size--;
+        if(size == 0) {tail = null;}
+        return temp;
+    }
 
+    public Object front() throws Exception
+    {
+        if(size == 0){throw new Exception("Queue is empty. ");}
+        return head.data;
     }
 
 
