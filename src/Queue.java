@@ -29,6 +29,14 @@ public class Queue
         }
         return false;
     }
+    public void enqueue(Object element)
+    {
+        Node nn = new Node(element);
+        if(this.size == 0){ head = nn; tail = nn;}
+        else{tail.next = nn; tail = nn;}
+        this.size++;
+
+    }
 
 
 }
