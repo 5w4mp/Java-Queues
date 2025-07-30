@@ -38,11 +38,11 @@ public class Queue
     }
     public Object dequeue() throws Exception
     {
-        if(size == 0){throw new Exception("Queue is empty. ");}
-        Object temp = head.data;
-        head = head.next;
+        if(this.size == 0){throw new Exception("Queue is empty. ");}
+        Object temp = this.head.data;
+        this.head = this.head.next;
         this.size--;
-        if(size == 0) {tail = null;}
+        if(this.size == 0) {tail = null;}
         return temp;
     }
 
