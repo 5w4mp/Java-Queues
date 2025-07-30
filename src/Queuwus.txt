@@ -1,0 +1,17 @@
+Queue data Structure:
+
+Concept: 1.) stores arbitrary type of objects.
+         2.) Insertion and deletion follows
+         3.) First in, First out strategy.
+         4.) Think about a checkout line at the grocery store.  or water in a pipe.
+Operations on Queue:
+         1.) void enqueue(Object e):
+            -insert e at the end of the queue.
+         2.) Object dequeue():
+            -Removes and return the element and the front of the queue.
+         3.) Object front():
+            -Returns the front element //getter
+         4.) int size():
+            -how big is the queue.
+         5.) boolean isEmpty():
+            - is the queue empty.//size == 0?
